@@ -5,7 +5,7 @@ docker network ls
   docker pull centos
   docker run -it --name first_centos centos
   docker network connect kcw first_centos
-  docker network container ls -a
+  docker network ls
   docker network inspect kcw
   docker network disconnect kcw first_centos
   docker network inpect kcw
